@@ -31,7 +31,7 @@ Moving the Center: Once all customers are assigned, the center of the group move
 
 This step uses Classical Statistics (CO3) to recalculate the mean of the cluster.
 
-The AI repeats this process until the centers stop moving. The final 3 centers define your 3 Customer Segments!
+
 -------------------------------------------------------------------------------------------------------
 Technology Used
 
