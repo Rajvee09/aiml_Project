@@ -1,6 +1,5 @@
-💡 Simple Project Report: Smart Customer Grouping (K-Means Clustering)
+ Project Report: Smart Customer Grouping (K-Means Clustering)
 
-1. What Problem We Solved (The "Why")
 
 The Problem: Treating Everyone the Same
 
@@ -10,17 +9,15 @@ Our AIML Goal: Automatic Grouping
 
 Our project uses Unsupervised Machine Learning (CO4) to automatically sort all customers into 3 distinct, smart groups based on two simple numbers:
 
-Annual Spending (How much money they spent)
+Annual Spending (How much money they spent)??
 
-Visit Frequency (How often they shop)
+Visit Frequency (How often they shop)??
 
-2. How the AI Works (The "What")
+-----------------------------------------
 
 A. The Tool
 
 We used K-Means Clustering, which is a type of AI that finds patterns in data without needing any labels (like a teacher telling it the answers).
-
-B. The Process (Finding the Groups)
 
 The K-Means algorithm runs in a loop, doing this:
 
@@ -35,14 +32,14 @@ Moving the Center: Once all customers are assigned, the center of the group move
 This step uses Classical Statistics (CO3) to recalculate the mean of the cluster.
 
 The AI repeats this process until the centers stop moving. The final 3 centers define your 3 Customer Segments!
-
-C. Technology Used
+-------------------------------------------------------------------------------------------------------
+Technology Used
 
 Language: Python
 
 Core Libraries: scikit-learn (for K-Means), pandas (for data tables).
 
-3. The Result and Benefit (The "So What?")
+ The Result and Benefit 
 
 The project successfully identifies three clear customer profiles, which are visible in the output graph (customer_segments.png):
 
